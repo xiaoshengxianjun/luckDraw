@@ -6,4 +6,4 @@
 自定义组件的具体知识可查看官方文档：
 [自定义组件](https://developers.weixin.qq.com/miniprogram/dev/framework/custom-component/)
 
-![](https://github.com/xiaoshengxianjun/luckDraw/demo/demo.png)
+![](https://github.com/xiaoshengxianjun/luckDraw/blob/master/demo/demo.png)
