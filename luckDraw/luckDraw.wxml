@@ -1,0 +1,22 @@
+<!--pages/luckDraw/luckDraw.wxml-->
+<view class='luckdraw'>
+  <image class='text' src='./image/textWhite.png'></image>
+  <view class='main'>
+    <image class='luckdraw-box' src='./image/luckDraw.png'></image>
+    <view class='content'>
+      <view class='line'>
+        <image src='{{currentLine1.url}}' animation="{{animationData1}}" bindtransitionend="_handleTransitionend"></image>
+        <image class='default-img' hidden='{{showDefault}}' src='{{currentLine1.url}}'></image>
+      </view>
+      <view class='line'>
+      <image src='{{currentLine2.url}}' animation="{{animationData2}}" bindtransitionend="_handleTransitionend"></image>
+      <image class='default-img' hidden='{{showDefault}}' src='{{currentLine2.url}}'></image>
+      </view>
+      <view class='line'>
+      <image src='{{currentLine3.url}}' animation="{{animationData3}}" bindtransitionend="_handleTransitionend"></image>
+      <image class='default-img' hidden='{{showDefault}}' src='{{currentLine3.url}}'></image>
+      </view>
+    </view>
+    <image class='btn' src='./image/haveatry.png' bindtap="_handleClick" bindtouchstart='_handleTouchStart' bindtouchend='_handleTouchEnd' style='bottom: {{bottom}}'></image>
+  </view>
+</view>
